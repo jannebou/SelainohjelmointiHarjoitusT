@@ -1,0 +1,108 @@
+/* Full-width input fields */
+#tuote input,
+#määrä input {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+
+.dropdown select {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+#header {
+  text-align: center;
+  margin-left: 100px;
+  margin-right: 100px;
+  padding: 2%;
+}
+
+#header h1 {
+  margin-top: 0;
+  font-size: 50px;
+}
+h2 {
+    font-size: 40px;
+}
+
+
+form {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.list-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+
+  border-bottom: 1px solid #ccc;
+}
+
+#item{
+    min-width: 60%;
+}
+
+button {
+  padding: 10px 15px;
+  color: white;
+  background-color: #007BFF;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #00346b;
+}
+
+.poista, .muokkaa {
+  display: inline-block;
+}
+
+#submit {
+  width: 100%;
+  background-color: #007BFF;
+}
+
+#submit:hover {
+  background-color: #0056b3;
+}
+
+#root {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+h1, h2 {
+  text-align: center;
+  color: #333;
+  font-size: 50px;
+}
+
+h2 {
+  margin-top: 40px;
+}
+
+p {
+  text-align: center;
+  color: #666;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
